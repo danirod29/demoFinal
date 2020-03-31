@@ -18,9 +18,7 @@ Para la construccion de los personajes se usa el patron abstract factory y build
 
 Entre turnos el estado del recolector cambia haciendo que se modifique su aspecto para lo cual usamos state
 
-De igual manera el aspecto del rey cambia al momento de tomar un poder para mostrar el uso de este, para esto usamos observer para que una vez el recolector escoga un poder este notifique y ordene el cambio del aspecto del rey de acuerdo al poder seleccionado
-
-
+De igual manera el aspecto del rey cambia al momento de tomar un poder para mostrar el uso de este, para esto usamos observer para que una vez el recolector escoga un poder este notifique y ordene el cambio del aspecto del rey de acuerdo al poder seleccionado haciendose por medio de decorator.
 
 Para la musica continua del juego se implementa un ciclo donde pasado un tiempo pasa a la siguiente cancion pero estas al tener distinto formato se usa chain of responsability para reproducir la cancion con su reproductor adecuado.
 
