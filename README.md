@@ -14,7 +14,7 @@ Implementa los patrones command, chain of responsability, composite, abtract fac
 
 El tablero se ambienta en un bosque y para dibujarlo se usa composite siendo un dibujo complejo compuesto de arboles.
 
-Para la construccion de los personajes se usa el patron abstract factory y builder siendo el producto los distintos personajes construidos por medio del builder.
+Para la construccion de los personajes se usa el patron abstract factory y builder siendo la fabrica el personaje como tal con productos como armadura, habilidad y herramienta para que finalmente los distintos personajes sean construidos por medio del builder.
 
 Entre turnos el estado del recolector cambia haciendo que se modifique su aspecto para lo cual usamos state
 
