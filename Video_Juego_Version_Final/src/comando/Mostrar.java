@@ -1,5 +1,6 @@
 package comando;
 
+import vistas.ControlesVista;
 
 public class Mostrar {
 	

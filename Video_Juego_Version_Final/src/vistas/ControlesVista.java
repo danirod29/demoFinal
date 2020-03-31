@@ -1,4 +1,4 @@
-package comando;
+package vistas;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
